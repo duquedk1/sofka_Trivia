@@ -43,11 +43,12 @@ const randomAnswer = (question) =>{
 }
 const clickLeave = () => {
     setTimeout(() => {
-        addPlayer(score)
+        let mensaje ="Gracias por jugar, vuelve pronto. \nIngresa tu Nickname"
+        addPlayer(score, mensaje)
         score =0
         restart()
         level(score)
-    }, 3000)
+    }, 300)
 }
 const clickBtn = (i) => {
     if(answers[i] === question.respuesta){
@@ -56,7 +57,8 @@ const clickBtn = (i) => {
     }else if(answers[i] !== question.respuesta){
         btns[i].style.background = "pink"
         setTimeout(() => {
-            addPlayer(score)
+            let mensaje ="PERDISTE!!  Sigue jugando \nIngresa tu Nickname"
+            addPlayer(score,mensaje)
             score =0
         }, 3000)
     }
@@ -79,8 +81,13 @@ if(localStorage.getItem('pScore') !== null){
 }
 
 
-const addPlayer = (score) =>{
-    let name = window.prompt("Ingresa tu Nickname")
+const addPlayer = (score, mensaje) =>{
+    let name = window.prompt(mensaje)
+    if(name === null || name === ''){
+        score =0
+        restart()
+        level(score)
+    }else{
     arrName.push(name)
     arrScore.push(score)
     arrLevel.push(question.nivel)
@@ -88,6 +95,7 @@ const addPlayer = (score) =>{
     localStorage.setItem('pScore',JSON.stringify(arrScore))
     localStorage.setItem('pLevel',JSON.stringify(arrLevel))
     fillTable()
+    }
 }
 
 const level = (score) => {
@@ -103,7 +111,11 @@ const level = (score) => {
     }else if(score>=2000 & score<2500){
         selectQuestion(dataQues[4][n]) 
     }else if(score===2500){
-
+        let mensaje ="Felicidades ganaste!!!, eres muy inteligente \nIngresa tu Nickname"
+        addPlayer(score, mensaje)
+        score =0
+        restart()
+        level(score)
     }
 }
 level(score)
