@@ -1,6 +1,6 @@
 let question
 let answers
-let score = 0
+let score = 2000
 let btns = [selectId("btn1"),
 selectId("btn2"),
 selectId("btn3"),

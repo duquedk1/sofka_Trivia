@@ -660,6 +660,7 @@
             "incorrecta3": "Karate\r"
         },
         {
+            "nivel":" 5",
             "categoria": "Deportes",
             "pregunta": "¿Cuál es el clásico rival del Flamengo (BRA)?",
             "respuesta": "Corinthians",
@@ -668,6 +669,7 @@
             "incorrecta3": "São Paulo\r"
         },
         {
+            "nivel":" 5",
             "categoria": "Geografía",
             "pregunta": " ¿Cuántas comunidades autónomas hay en España?",
             "respuesta": "17",
@@ -676,6 +678,7 @@
             "incorrecta3": "13\r"
         },
         {
+            "nivel":" 5",
             "categoria": "Geografía",
             "pregunta": " ¿Cuál es la capital de Guyana?",
             "respuesta": "Georgetown",
@@ -684,6 +687,7 @@
             "incorrecta3": "Cayena\r"
         },
         {
+            "nivel":" 5",
             "categoria": "Geografía",
             "pregunta": " ¿En qué isla del archipiélago canario se encuentra el volcán más alto de España?",
             "respuesta": "Tenerife",
@@ -692,6 +696,7 @@
             "incorrecta3": "El Hierro"
         },
         {
+            "nivel":" 5",
             "categoria": "Geografía",
             "pregunta": " ¿Dónde se encuentra el barrio de Greenwich?",
             "respuesta": "Londres ",
@@ -700,6 +705,7 @@
             "incorrecta3": "Kingston\r"
         },
         {
+            "nivel":" 5",
             "categoria": "Geografía",
             "pregunta": " ¿Con qué país delimita Turkmenistan?",
             "respuesta": "Uzbequistan",
