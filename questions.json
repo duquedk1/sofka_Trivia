@@ -1,15 +1,41 @@
+[
     [
+
         {
-            "categoria":"Arte y literatura",
-            "pregunta": "¿Quien pintó la Mona Lisa?",
+            "nivel":" 1",
+            "categoria": "Arte y literatura",
+            "pregunta": "¿Quién pintó la mona lisa?",
             "respuesta": "Leonardo da Vinci",
-            "incorrecta1":"Picasso",
-            "incorrecta2":"Miguel Ángel",
-            "incorrecta3":"Monet\r",
-            "imagen":"data:image/jpeg;base64,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",
-            "objectFit":"cover"
+            "incorrecta1": "Picasso",
+            "incorrecta2": "Miguel Ángel",
+            "incorrecta3": "Monet",
+            "imagen": "https://i.ibb.co/9cjvmw1/mona-lisa.jpg",
+            "objectFit": "cover"
         },
         {
+            "nivel":" 1",
+            "categoria": "Historia",
+            "pregunta": "¿Cómo se llama la Reina del Reino Unido?",
+            "respuesta": "Isabel II",
+            "incorrecta1": "Isabel I",
+            "incorrecta2": "Lucia IV",
+            "incorrecta3": "Jane Grey",
+            "imagen": "https://www.hola.com/imagenes/realeza/casa_inglesa/20210828195166/isabel-ii-futuro-verano-complicado/0-988-647/reina-isabel2-t.jpg?filter=w600",
+            "objectFit": "cover"
+        },
+        {
+            "nivel":" 1",
+            "categoria": "Geografia",
+            "pregunta": "¿Cual es el rio mas largo del mundo?",
+            "respuesta": "Rio amazonas",
+            "incorrecta1": "Rio Nilo",
+            "incorrecta2": "Rio Misisipi",
+            "incorrecta3": "Rio Ganges",
+            "imagen": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/77/cf.jpg",
+            "objectFit": "cover"
+            },
+        {
+            "nivel":" 1",
             "categoria": "Química",
             "pregunta": "¿Cuál es la fórmula química del agua?",
             "respuesta": "H2O",
@@ -19,6 +45,7 @@
             "imagen": "https://i.ibb.co/g6kcqTK/thumbs-b-c-0970f11a6d81d650d9c47ea21f10a751.jpg"
         },
         {
+            "nivel":" 1",
             "categoria": "Ciencia y técnologia",
             "pregunta": "Sistema operativo para telefonos más usado",
             "respuesta": "Android",
@@ -27,6 +54,7 @@
             "incorrecta3": "Windows\r"
         },
         {
+            "nivel":" 1",
             "categoria": "Historia",
             "pregunta": "¿Qué se celebra el 8 de Marzo?",
             "respuesta": "El Día De La Mujer",
@@ -35,11 +63,649 @@
             "incorrecta3": "El Día Del Niño\r"
         },
         {
+            "nivel":" 1",
+            "categoria": "Arte y literatura",
+            "pregunta": "¿Qué odia Mafalda?",
+            "respuesta": "La Sopa",
+            "incorrecta1": "El Ruido",
+            "incorrecta2": "La Gente",
+            "incorrecta3": "A Su Madre\r",
+            "imagen": "https://i.ibb.co/ypVN1Lh/D7wrc99-D-400x400.jpg",
+            "objectFit": "contain"
+        },
+        {
+            "nivel":" 1",
+            "categoria": "Arte y literatura",
+            "pregunta": " Pintó La Capilla Sixtina.",
+            "respuesta": "Miguel Ángel",
+            "incorrecta1": "Picasso",
+            "incorrecta2": "Monet",
+            "incorrecta3": "Gustave Klimt\r",
+            "imagen": "https://i.ibb.co/b3D8kfr/image.jpg"
+        },
+        {
+            "nivel":" 1",
             "categoria": "Deportes",
             "pregunta": "¿Cuántos jugadores tiene un equipo de futbol en el campo de juego?",
             "respuesta": "11",
             "incorrecta1": "6",
             "incorrecta2": "9",
             "incorrecta3": "13\r"
+        },
+        {
+            "nivel":" 1",
+            "categoria": "Ciencia y técnologia",
+            "pregunta": " Órgano del cuerpo humano produce la bilis.",
+            "respuesta": "Hígado",
+            "incorrecta1": "Páncreas",
+            "incorrecta2": "Estomago",
+            "incorrecta3": "Riñón\r",
+            "imagen": "https://i.ibb.co/31Fhj8j/000.jpg"
+        },
+        {
+            "nivel":" 1",
+            "categoria": "Ciencia y técnologia",
+            "pregunta": "¿Dónde vive el delfín rosado?",
+            "respuesta": "En Brasil",
+            "incorrecta1": "En Oceanía",
+            "incorrecta2": "Solo En Aguas Cálidas",
+            "incorrecta3": "Solo En Aguas Muy Frías\r",
+            "imagen": "https://i.ibb.co/RTffJbX/d.jpg"
+        },
+        {
+            "nivel":" 1",
+            "categoria": "Ciencia y técnologia",
+            "pregunta": "Cambio de sólido a gaseoso.",
+            "respuesta": "Sublimación",
+            "incorrecta1": "Cohesión",
+            "incorrecta2": "Evaporación",
+            "incorrecta3": "Condensación\r",
+            "imagen": "https://i.ibb.co/6v4nGBq/Materia.jpg"
+        },
+        {
+            "nivel":" 1",
+            "categoria": "Matemática",
+            "pregunta": "Entre dos numeros reales siempre existira otro numero real ¿Qué significa esto?",
+            "respuesta": "Que los numeros son infinitos",
+            "incorrecta1": "Que hay un error en las matematicas",
+            "incorrecta2": "Nadie sabe que significa (es un misterio)",
+            "incorrecta3": "Que por mucho que corramos nunca alcanzaremos la meta\r"
+        },
+        {
+            "nivel":" 1",
+            "categoria": "Matemática",
+            "pregunta": "¿Seis personas pueden vivir en un hotel durante 12 días por $792.000. ¿Cuánto costará el hotel de 15 personas durante ocho días?",
+            "respuesta": "$1.320.000",
+            "incorrecta1": "$15.000.000",
+            "incorrecta2": "$1.203.000",
+            "incorrecta3": "$8.927.000\r"
+        },
+        {
+            "nivel":" 1",
+            "categoria": "Arte y literatura",
+            "pregunta": "autor del libro \"El gato negro y otros cuentos de terror\"",
+            "respuesta": "Edgar Allan Poe",
+            "incorrecta1": "Gabriel García Márquez",
+            "incorrecta2": "Goya",
+            "incorrecta3": "Calderón De La Barca\r",
+            "imagen": "https://i.ibb.co/kxw7zFF/image.gif"
+        }
+    ],
+    [
+        {
+            "nivel":" 2",
+            "categoria": "Matemática",
+            "pregunta": "a cuanto equivale ½ de hora en minutos",
+            "respuesta": "30",
+            "incorrecta1": "15",
+            "incorrecta2": "45",
+            "incorrecta3": "60\r"
+        },
+        {   
+            "nivel":" 2",
+            "categoria": "Matemática",
+            "pregunta": "La hipotenusa es igual a la raiz de la suma de los catetos al cuadrado",
+            "respuesta": "Teorema de pitagoras",
+            "incorrecta1": "Teorema de Tales",
+            "incorrecta2": "Es incorrecto",
+            "incorrecta3": "Teorema del triangulin\r"
+        },
+        {   
+            "nivel":" 2",
+            "categoria": "Matemática",
+            "pregunta": "Sir Isaac Newton gran hecho",
+            "respuesta": "Descubrió el calculo en el siglo XVII",
+            "incorrecta1": "Creó la geometría analítica en el siglo XVII. ",
+            "incorrecta2": "Inventó el topología algebraica en el siglo XIX",
+            "incorrecta3": "Comia mucho mani\r"
+        },
+        {   "nivel":" 2",   
+            "categoria": "Arte y literatura",
+            "pregunta": "filósofo que dijo 'solo sé que no sé nada'",
+            "respuesta": "Sócrates",
+            "incorrecta1": "Edipo",
+            "incorrecta2": "Arquímedes",
+            "incorrecta3": "Pitágoras\r"
+        },
+        {   "nivel":" 2",
+            "categoria": "Arte y literatura",
+            "pregunta": "Pintó el famoso cuadro de pop art 'Latas de sopa Campbell'.",
+            "respuesta": "Andy Warhol",
+            "incorrecta1": "Roy Lichtenstein",
+            "incorrecta2": "David Hockney",
+            "incorrecta3": "Robert Rauschenberg\r",
+            "imagen": "https://i.ibb.co/dQL3Rw5/image.jpg"
+        },
+        {   "nivel":" 2",
+            "categoria": "Arte y literatura",
+            "pregunta": "Arte japonés de la papiroflexia.",
+            "respuesta": "Origami",
+            "incorrecta1": "Haiku",
+            "incorrecta2": "Ikebana",
+            "incorrecta3": "Ukiyo-E\r",
+            "imagen": "https://i.ibb.co/ZmTsdq4/152311543.jpg"
+        },
+        {   "nivel":" 2",
+            "categoria": "Ciencia y técnologia",
+            "pregunta": "¿Cómo debería estar una persona para que le fuera practicada una autopsia? ",
+            "respuesta": "Muerta",
+            "incorrecta1": "En Coma",
+            "incorrecta2": "Dormida",
+            "incorrecta3": "Sedada\r"
+        },
+        {   "nivel":" 2",
+            "categoria": "Ciencia y técnologia",
+            "pregunta": "¿De qué color es la sangre de los peces?",
+            "respuesta": "Rojo",
+            "incorrecta1": "Verde Oscuro",
+            "incorrecta2": "Marrón Oscuro",
+            "incorrecta3": "Azul\r",
+            "imagen": "https://i.ibb.co/Jyvx3Gb/540dc6daf152es296230-p-1.jpg"
+        },
+        {   "nivel":" 2",
+            "categoria": "Ciencia y técnologia",
+            "pregunta": "¿Cuál es el mamífero más grande conocido hasta la actualidad?",
+            "respuesta": "Ballena Azul",
+            "incorrecta1": "Cachalote",
+            "incorrecta2": "Elefante",
+            "incorrecta3": "Rinoceronte\r"
+        },
+        {   "nivel":" 2",
+            "categoria": "Deportes",
+            "pregunta": "¿Cuál es el estilo de natación más rápido?",
+            "respuesta": "Crol",
+            "incorrecta1": "Espalda",
+            "incorrecta2": "Mariposa",
+            "incorrecta3": "Pecho\r"
+        },
+        {   "nivel":" 2",
+            "categoria": "Deportes",
+            "pregunta": " ¿En qué país se inventó el voleibol?",
+            "respuesta": "Estados Unidos",
+            "incorrecta1": "Gran Bretaña",
+            "incorrecta2": "Francia",
+            "incorrecta3": "Rusia\r"
+        },
+        {   "nivel":" 2",
+            "categoria": "Deportes",
+            "pregunta": "¿Quién inventó el arte marcial llamado Jeet Kune Do?",
+            "respuesta": "Bruce Lee",
+            "incorrecta1": "David Carradine",
+            "incorrecta2": "Kato Mimoko",
+            "incorrecta3": "Ninguna Es Correcta\r"
+        },
+        {   
+            "nivel":" 2",
+            "categoria": "Deportes",
+            "pregunta": "¿Cómo se llama la zona de hierba rasa donde está ubicado el hoyo en golf?",
+            "respuesta": "Green",
+            "incorrecta1": "Esplanada",
+            "incorrecta2": "Campo",
+            "incorrecta3": "Terreno\r"
+        },
+        {   "nivel":" 2",
+            "categoria": "Deportes",
+            "pregunta": "¿Qué tipo de competición es el Giro de Italia?",
+            "respuesta": "Una Carrera Ciclistica",
+            "incorrecta1": "Una Competición De Vela",
+            "incorrecta2": "Un Maratón",
+            "incorrecta3": "Una Carrera Automovilística\r"
+        },
+        {
+            "nivel":" 2",
+            "categoria": "Entretenimiento",
+            "pregunta": " ¿A qué familia pertenece Dobby,el elfo doméstico en la historia de Harry Potter?",
+            "respuesta": "Malfoy",
+            "incorrecta1": "Weasley",
+            "incorrecta2": "Potter",
+            "incorrecta3": "Black\r"
+        }
+    ],
+    [
+        {
+            "nivel":" 3",
+            "categoria": "Entretenimiento",
+            "pregunta": " ¿Cuál es la nacionalidad de la cantante Shakira?",
+            "respuesta": "Colombiana",
+            "incorrecta1": "Venezolana",
+            "incorrecta2": "Ecuatoriana",
+            "incorrecta3": "Peruana\r"
+        },
+        {
+            "nivel":" 3",
+            "categoria": "Entretenimiento",
+            "pregunta": " ¿Cómo se llama el actor que interpreta a Michael en la película \"El padrino\"?",
+            "respuesta": "Al Pacino",
+            "incorrecta1": "James Caan",
+            "incorrecta2": "Robert Duvall",
+            "incorrecta3": "Marlon Brando\r"
+        },
+        {
+            "nivel":" 3",
+            "categoria": "Matemática",
+            "pregunta": "¿Qué es el radio?",
+            "respuesta": "es un segmento que une el centro con un punto de la circunferencia perimetral.",
+            "incorrecta1": "es un segmento que une dos puntos de la circunferencia sin pasar por su centro.",
+            "incorrecta2": "línea que hace parte y sobresale del círculo .",
+            "incorrecta3": "Es la recta que toca al círculo en un solo punto; es perpendicular al radio cuyo extremo es el punto de tangencia.\r"
+        },
+        {
+            "nivel":" 3",
+            "categoria": "Matemática",
+            "pregunta": "Area de un circulo",
+            "respuesta": "πr²",
+            "incorrecta1": "½bh",
+            "incorrecta2": "½bh",
+            "incorrecta3": "½ab(senΘ)\r"
+        },
+        {
+            "nivel":" 3",
+            "categoria": "Matemática",
+            "pregunta": "Raiz Cuadrada de 2",
+            "respuesta": "1,41421356237309504880168872420969807856967187…",
+            "incorrecta1": "3.14159265358979323846264338327950288419716939...",
+            "incorrecta2": "1.73205080756887729352744634150587236694280525…",
+            "incorrecta3": "2.23606797749978969640917366873127623544061835...\r"
+        },
+        {
+            "nivel":" 3",
+            "categoria": "Entretenimiento",
+            "pregunta": "¿Quién fue el personaje menos preferido de Akira Toriyama?",
+            "respuesta": "Vegeta",
+            "incorrecta1": "Krillin",
+            "incorrecta2": "Goku",
+            "incorrecta3": "Mr Popo\r"
+        },
+        {
+            "nivel":" 3",
+            "categoria": "Entretenimiento",
+            "pregunta": "¿Cuántos episodios tiene Gantz?",
+            "respuesta": "26",
+            "incorrecta1": "25",
+            "incorrecta2": "30",
+            "incorrecta3": "35\r"
+        },
+        {
+            "nivel":" 3",
+            "categoria": "Entretenimiento",
+            "pregunta": "¿Cuántas peliculas tiene Death Note?",
+            "respuesta": "3",
+            "incorrecta1": "1",
+            "incorrecta2": "0",
+            "incorrecta3": "8\r"
+        },
+        {
+            "nivel":" 3",
+            "categoria": "Historia",
+            "pregunta": "¿Qué modelo de Seat significó la motorización de los españoles?",
+            "respuesta": "600",
+            "incorrecta1": "500",
+            "incorrecta2": "Ibiza",
+            "incorrecta3": "León\r"
+        },
+        {
+            "nivel":" 3",
+            "categoria": "Historia",
+            "pregunta": "¿Cuál de estos nombres en clave no se corresponde con el de una playa del desembarco de Normandía?",
+            "respuesta": "Todos Son Correctos",
+            "incorrecta1": "Utah",
+            "incorrecta2": "Juno",
+            "incorrecta3": "Sword\r"
+        },
+        {
+            "nivel":" 3",
+            "categoria": "Historia",
+            "pregunta": "¿Cuántos siglos duró el Siglo de Oro?",
+            "respuesta": "2",
+            "incorrecta1": "3",
+            "incorrecta2": "0.5",
+            "incorrecta3": "1\r"
+        },
+        {
+            "nivel":" 3",
+            "categoria": "Arte y literatura",
+            "pregunta": "¿Quién es?",
+            "respuesta": "Andy Warhol",
+            "incorrecta1": "Rafael",
+            "incorrecta2": "Edvard Munch",
+            "incorrecta3": "Steve Jobs",
+            "imagen": "https://i.ibb.co/P18PR5t/warhol-2.jpg",
+            "objectFit": "contain"
+        },
+        {
+            "nivel":" 3",
+            "categoria": "Entretenimiento",
+            "pregunta": "¿Quién fue la creadora  de Inuyasha?",
+            "respuesta": "Rumiko Takahashi",
+            "incorrecta1": "Satsuki Igarashi",
+            "incorrecta2": "Nagase Ohkawa",
+            "incorrecta3": "Mokona Apapa\r"
+        },
+        {
+            "nivel":" 3",
+            "categoria": "Ciencia y técnologia",
+            "pregunta": "Músculos que se encargan de los movimientos involuntarios.",
+            "respuesta": "Lisos",
+            "incorrecta1": "Estriados",
+            "incorrecta2": "Cardíacos",
+            "incorrecta3": "Esqueléticos\r"
+        },
+        {
+            "nivel":" 3",
+            "categoria": "Ciencia y técnologia",
+            "pregunta": "Cambio de estado ocurre en la sublimación.",
+            "respuesta": "Solido A Gaseoso",
+            "incorrecta1": "Gaseoso A Solido",
+            "incorrecta2": "Solido A Liquido",
+            "incorrecta3": "Liquido A Gaseoso\r",
+            "imagen": "https://i.ibb.co/6v4nGBq/Materia.jpg"
+        }
+    ],
+    [
+        {   "nivel":" 4",
+            "categoria": "Ciencia y técnologia",
+            "pregunta": "Enfermedad que ataca al hígado.",
+            "respuesta": "Hepatitis",
+            "incorrecta1": "Renitis",
+            "incorrecta2": "Bulimia",
+            "incorrecta3": "Onicomicosis\r"
+        },
+        {
+            "nivel":" 4",
+            "categoria": "Ciencia y técnologia",
+            "pregunta": " Función principal del intestino grueso",
+            "respuesta": "Absorción De Agua",
+            "incorrecta1": "Producción De Insulina",
+            "incorrecta2": "Producción De Glucógeno",
+            "incorrecta3": "Producción Del Jugo Pancreático\r",
+            "imagen": "https://i.ibb.co/pJ8q4JB/image.jpg"
+        },
+        {
+            "nivel":" 4",
+            "categoria": "Historia",
+            "pregunta": "Ciudad de Antioquia en la que nació la Madre Laura (Primera Santa Colombiana)",
+            "respuesta": "Jericó",
+            "incorrecta1": "Medellín",
+            "incorrecta2": "Apartadó ",
+            "incorrecta3": "Ituango\r"
+        },
+        {
+            "nivel":" 4",
+            "categoria": "Arte y literatura",
+            "pregunta": "¿Quién lo pintó?",
+            "respuesta": "Salvador Dalí ",
+            "incorrecta1": "Charles Baudelaire",
+            "incorrecta2": "Arthur Rimbaud",
+            "incorrecta3": "Paul Verlaine\r",
+            "imagen": "https://i.ibb.co/gzJgK0C/1585067106-344791-1585067381-rrss-normal.jpg"
+        },
+        {
+            "nivel":" 4",
+            "categoria": "Arte y literatura",
+            "pregunta": "De las siguientes obras pictóricas, ¿cuál NO fue pintada por Leonardo da Vinci?",
+            "respuesta": "La Cúpula De La Capilla Sixtina",
+            "incorrecta1": "La Última Cena",
+            "incorrecta2": "La Gioconda O Mona Lisa",
+            "incorrecta3": "La Virgen De Las Rocas\r",
+            "imagen": "https://i.ibb.co/HqKvqmj/leonardo-da-vinci-fue-homosexual-segun-freud.jpg"
+        },
+        {
+            "nivel":" 4",
+            "categoria": "Entretenimiento",
+            "pregunta": " ¿Qué movimiento llegó en 1970 con la canción \"Anarchy in the U.K.\" a su punto culminante?",
+            "respuesta": "Punk",
+            "incorrecta1": "Heavy Metal",
+            "incorrecta2": "Rap",
+            "incorrecta3": "Rock\r"
+        },
+        {
+            "nivel":" 4",
+            "categoria": "Entretenimiento",
+            "pregunta": " ¿Cuál de los siguientes actores no actúa en \"La Que Se Avecina\"?",
+            "respuesta": "Llum Barrera",
+            "incorrecta1": "Fernando Tejero",
+            "incorrecta2": "Jordi Sánchez",
+            "incorrecta3": "Cristina Castaño\r"
+        },
+        {
+            "nivel":" 4",
+            "categoria": "Entretenimiento",
+            "pregunta": " ¿Qué personaje Disney baja por un río con una canoa?",
+            "respuesta": "Pocahontas",
+            "incorrecta1": "Peter Pan",
+            "incorrecta2": "Blancanieves",
+            "incorrecta3": "Lilo Y Stich\r"
+        },
+        {
+            "nivel":" 4",
+            "categoria": "Entretenimiento",
+            "pregunta": " ¿Cómo se llamaba el panadero de Barrio Sésamo?",
+            "respuesta": "Chema",
+            "incorrecta1": "Juan",
+            "incorrecta2": "Pedro",
+            "incorrecta3": "Chicho\r"
+        },
+        {
+            "nivel":" 4",
+            "categoria": "Entretenimiento",
+            "pregunta": " ¿En cuál de estos juegos el terreno tiene hongos, flores, bombas de DDT, y como enemigos y arañas, mariquitas y otros insectos?",
+            "respuesta": "Millipede",
+            "incorrecta1": "Centipede",
+            "incorrecta2": "Burgertime",
+            "incorrecta3": "Paperboy\r"
+        },
+        {
+            "nivel":" 4",
+            "categoria": "Matemática",
+            "pregunta": "Leonad Euler nacionalidad",
+            "respuesta": "Suiza",
+            "incorrecta1": "Ruso",
+            "incorrecta2": "Alemania",
+            "incorrecta3": "Berlin\r"
+        },
+        {
+            "nivel":" 4",
+            "categoria": "Matemática",
+            "pregunta": "Sir Isaac Newton, nacionalidad",
+            "respuesta": "Ingles",
+            "incorrecta1": "Colombiano",
+            "incorrecta2": "Venezolano",
+            "incorrecta3": "Peruano\r"
+        },
+        {
+            "nivel":" 4",
+            "categoria": "Matemática",
+            "pregunta": "11 obreros labran un campo rectangular de 220 m de largo y 48 de ancho en 6 días. ¿Cuántos obreros serán necesarios para labrar otro campo análogo de 300 m de largo por 56 m de ancho en cinco días?",
+            "respuesta": "21",
+            "incorrecta1": "22",
+            "incorrecta2": "20",
+            "incorrecta3": "19\r"
+        },
+        {
+            "nivel":" 4",
+            "categoria": "Matemática",
+            "pregunta": "Forma correcta de escribir al 10 con cuatro nueves",
+            "respuesta": "(9x9+9)/9 ",
+            "incorrecta1": "9+9+9+9",
+            "incorrecta2": "9-9+(9x9)",
+            "incorrecta3": "(9x9)/(9x9)\r"
+        },
+        {
+            "nivel":" 4",
+            "categoria": "Matemática",
+            "pregunta": "En que país el número telefónico móvil para emergencias en estaciones de trenes y subterráneos es ∗31416. π (Pi)",
+            "respuesta": "Argentina",
+            "incorrecta1": "Chile",
+            "incorrecta2": "Japón",
+            "incorrecta3": "Colombia\r"
+        }
+    ],
+    [
+        {
+            "nivel":" 5",
+            "categoria": "Matemática",
+            "pregunta": "Con que aproximacion Arquimedes calculo a  π",
+            "respuesta": "3(10/71) < π < 3(1/7)",
+            "incorrecta1": " π = 22/3",
+            "incorrecta2": "3 < π <3.2",
+            "incorrecta3": " π = 3.1\r"
+        },
+        {
+            "nivel":" 5",
+            "categoria": "Matemática",
+            "pregunta": "Forma correcta de escribir al 100 con cinco cifras iguales",
+            "respuesta": "111-11",
+            "incorrecta1": "55+55*5",
+            "incorrecta2": "22*2*2+2",
+            "incorrecta3": "33x3x(3/3)\r"
+        },
+        {
+            "nivel":" 5",
+            "categoria": "Matemática",
+            "pregunta": "Se fundó la teoria dos grafos",
+            "respuesta": "solucionando un problema que tenia siete puentes. ",
+            "incorrecta1": "Conectando algunos meridianos importantes",
+            "incorrecta2": "En el estudio de los numeros primos",
+            "incorrecta3": "Estudiando aquillas curvas que parecen rectas\r"
+        },
+        {
+            "nivel":" 5",
+            "categoria": "Arte y literatura",
+            "pregunta": "La autoría de la pintura 'El Coloso' se ha puesto muy en duda ¿A quién se le atribuye tradicionalmente?",
+            "respuesta": "Goya",
+            "incorrecta1": "Gabriel García Márquez",
+            "incorrecta2": "Pablo Neruda",
+            "incorrecta3": "Antonio Gamoneda\r",
+            "imagen": "https://i.ibb.co/J7gFfpz/ey-J0e-XAi-Oi-JKV1-Qi-LCJhb-Gci-Oi-JIUz-I1-Ni-J9-ey-Jpb-SI6-Wy-Jc-L2-Fyd-Hdvcmtc-L2lt-YWdl-Rmls-ZVwv.png",
+            "objectFit": "contain"
+        },
+        {
+            "nivel":" 5",
+            "categoria": "Arte y literatura",
+            "pregunta": " Gente que no posee magia en la saga de Harry Potter.",
+            "respuesta": "Muggles",
+            "incorrecta1": "Hufflepuffs",
+            "incorrecta2": "Ratñingers",
+            "incorrecta3": "Kubys\r",
+            "imagen": "https://i.ibb.co/swnsyLp/harry-potter.gif",
+            "objectFit": "contain"
+        },
+        {
+            "nivel":" 5",
+            "categoria": "Arte y literatura",
+            "pregunta": "Es el género más cultivado por los autores de la generación del 27",
+            "respuesta": "Poesía",
+            "incorrecta1": "Prosa",
+            "incorrecta2": "Suspenso",
+            "incorrecta3": "Terror\r",
+            "imagen": "https://i.ibb.co/qmrQJhM/27.jpg",
+            "objectFit": "contain"
+        },
+        {
+            "nivel":" 5",
+            "categoria": "Arte y literatura",
+            "pregunta": "Escritor de \"El túnel\"",
+            "respuesta": "Ernesto Sábato",
+            "incorrecta1": "Ernest Hemingway",
+            "incorrecta2": "Julio Verne",
+            "incorrecta3": "Gabriel García Márquez\r",
+            "imagen": "https://i.ibb.co/vdTD5sF/el-tunel.jpg"
+        },
+        {
+            "nivel":" 5",
+            "categoria": "Arte y literatura",
+            "pregunta": "Autor de la obra teatral \"Casa de Muñecas\"",
+            "respuesta": "Henrik Ibsen",
+            "incorrecta1": "Edward Albee‎ ",
+            "incorrecta2": "Samuel Beckett‎ ",
+            "incorrecta3": "Albert Camus‎\r"
+        },
+        {
+            "nivel":" 5",
+            "categoria": "Arte y literatura",
+            "pregunta": "Es una figura clave del dadaísmo y el surrealismo.",
+            "respuesta": "Max Ernst",
+            "incorrecta1": "Pablo Picasso",
+            "incorrecta2": "Vincent Van Gogh",
+            "incorrecta3": "Claude Monet\r",
+            "imagen": "https://i.ibb.co/dLw3jng/Dada-min-e1533749290497.jpg"
+        },
+        {
+            "nivel":" 5",
+            "categoria": "Deportes",
+            "pregunta": "¿De qué deporte es el kemari uno de los principales antecesores?",
+            "respuesta": "Fútbol",
+            "incorrecta1": "Tenis",
+            "incorrecta2": "Rugby",
+            "incorrecta3": "Karate\r"
+        },
+        {
+            "categoria": "Deportes",
+            "pregunta": "¿Cuál es el clásico rival del Flamengo (BRA)?",
+            "respuesta": "Corinthians",
+            "incorrecta1": "Palmeiras",
+            "incorrecta2": "Cruzeiro",
+            "incorrecta3": "São Paulo\r"
+        },
+        {
+            "categoria": "Geografía",
+            "pregunta": " ¿Cuántas comunidades autónomas hay en España?",
+            "respuesta": "17",
+            "incorrecta1": "16",
+            "incorrecta2": "14",
+            "incorrecta3": "13\r"
+        },
+        {
+            "categoria": "Geografía",
+            "pregunta": " ¿Cuál es la capital de Guyana?",
+            "respuesta": "Georgetown",
+            "incorrecta1": "Washington",
+            "incorrecta2": "Tegucigalpa",
+            "incorrecta3": "Cayena\r"
+        },
+        {
+            "categoria": "Geografía",
+            "pregunta": " ¿En qué isla del archipiélago canario se encuentra el volcán más alto de España?",
+            "respuesta": "Tenerife",
+            "incorrecta1": "Mallorca ",
+            "incorrecta2": "Sicilia",
+            "incorrecta3": "El Hierro"
+        },
+        {
+            "categoria": "Geografía",
+            "pregunta": " ¿Dónde se encuentra el barrio de Greenwich?",
+            "respuesta": "Londres ",
+            "incorrecta1": "Edimburgo",
+            "incorrecta2": "Bruselas",
+            "incorrecta3": "Kingston\r"
+        },
+        {
+            "categoria": "Geografía",
+            "pregunta": " ¿Con qué país delimita Turkmenistan?",
+            "respuesta": "Uzbequistan",
+            "incorrecta1": "Kirguizistán",
+            "incorrecta2": "Mongolia",
+            "incorrecta3": "Siria\r"
         }
     ]
+]
